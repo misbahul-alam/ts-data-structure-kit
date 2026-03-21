@@ -4,8 +4,10 @@
   "description": "A TypeScript data structure kit that provides implementations of various data structures such as linked lists, stacks, queues, trees, graphs, and more.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsup",
+    "test": "vitest"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/misbahul-alam/ts-data-structure-kit.git"
@@ -19,6 +21,8 @@
   "homepage": "https://github.com/misbahul-alam/ts-data-structure-kit#readme",
   "devDependencies": {
     "@types/node": "^25.5.0",
-    "typescript": "^5.9.3"
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.0"
   }
 }
