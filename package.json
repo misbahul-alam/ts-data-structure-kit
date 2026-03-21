@@ -1,0 +1,24 @@
+{
+  "name": "ts-data-structure-kit",
+  "version": "1.0.0",
+  "description": "A TypeScript data structure kit that provides implementations of various data structures such as linked lists, stacks, queues, trees, graphs, and more.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/misbahul-alam/ts-data-structure-kit.git"
+  },
+  "keywords": [],
+  "author": "Misbahul Alam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/misbahul-alam/ts-data-structure-kit/issues"
+  },
+  "homepage": "https://github.com/misbahul-alam/ts-data-structure-kit#readme",
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "typescript": "^5.9.3"
+  }
+}
